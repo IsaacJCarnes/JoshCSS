@@ -1,0 +1,21 @@
+{
+  "name": "josh-css",
+  "version": "1.0.0",
+  "description": "A lightweight utility-first CSS framework",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss src/index.css -o dist/framework.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "style": "./dist/framework.css",
+  "exports": {
+    ".": "./dist/framework.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.31",
+    "postcss-cli": "^12.0.0",
+    "postcss-import": "^17.0.1"
+  }
+}

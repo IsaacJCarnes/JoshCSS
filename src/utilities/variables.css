@@ -1,0 +1,27 @@
+* {
+  /*Margin*/
+  --m: initial;
+  --m-x: initial;
+  --m-y: initial;
+  --m-l: initial;
+  --m-r: initial;
+  --m-t: initial;
+  --m-b: initial;
+  --m-left: var(--m-l, var(--m-x, var(--m, 0px)));
+  --m-right: var(--m-r, var(--m-x, var(--m, 0px)));
+  --m-top: var(--m-t, var(--m-y, var(--m, 0px)));
+  --m-bottom: var(--m-b, var(--m-y, var(--m, 0px)));
+
+  /*Padding*/
+  --p: initial;
+  --p-x: initial;
+  --p-y: initial;
+  --p-l: initial;
+  --p-r: initial;
+  --p-t: initial;
+  --p-b: initial;
+  --p-left: var(--p-l, var(--p-x, var(--p, 0px)));
+  --p-right: var(--p-r, var(--p-x, var(--p, 0px)));
+  --p-top: var(--p-t, var(--p-y, var(--p, 0px)));
+  --p-bottom: var(--p-b, var(--p-y, var(--p, 0px)));
+}

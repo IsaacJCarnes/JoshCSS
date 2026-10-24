@@ -1,0 +1,13 @@
+.fill,
+.fill-x {
+  width: calc(
+    100% - (var(--m-left) + var(--m-right) + var(--p-left) + var(--p-right))
+  );
+}
+
+.fill,
+.fill-y {
+  height: calc(
+    100% - (var(--m-top) + var(--m-bottom) + var(--p-top) + var(--p-bottom))
+  );
+}

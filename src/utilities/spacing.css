@@ -1,0 +1,47 @@
+.m,
+.m-x,
+.m-l {
+  margin-left: var(--m-left);
+}
+
+.m,
+.m-x,
+.m-r {
+  margin-right: var(--m-right);
+}
+
+.m,
+.m-y,
+.m-t {
+  margin-top: var(--m-top);
+}
+
+.m,
+.m-y,
+.m-b {
+  margin-bottom: var(--m-bottom);
+}
+
+.p,
+.p-x,
+.p-l {
+  padding-left: var(--p-left);
+}
+
+.p,
+.p-x,
+.p-r {
+  padding-right: var(--p-right);
+}
+
+.p,
+.p-y,
+.p-t {
+  padding-top: var(--p-top);
+}
+
+.p,
+.p-y,
+.p-b {
+  padding-bottom: var(--p-bottom);
+}
