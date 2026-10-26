@@ -1,4 +1,8 @@
 @import './utilities/variables.css';
+
+@import './utilities/border.css';
+@import './utilities/color.css';
 @import './utilities/layout.css';
-@import './utilities/spacing.css';
 @import './utilities/sizing.css';
+@import './utilities/spacing.css';
+@import './utilities/text.css';

@@ -1,0 +1,69 @@
+/* Text/Fomt Specific CSS */
+/* Font Weight */
+.txt-w1 {
+  font-weight: 100;
+}
+.txt-w2 {
+  font-weight: 200;
+}
+.txt-w3 {
+  font-weight: 300;
+}
+.txt-w4 {
+  font-weight: 400;
+}
+.txt-w5 {
+  font-weight: 500;
+}
+.txt-w6 {
+  font-weight: 600;
+}
+.txt-w7 {
+  font-weight: 700;
+}
+.txt-w8 {
+  font-weight: 800;
+}
+.txt-w9 {
+  font-weight: 900;
+}
+.txt-w10 {
+  font-weight: 1000;
+}
+
+/* Font Size */
+.txt-sm4{
+  font-size: xx-small;
+}
+
+.txt-sm3{
+  font-size: x-small;
+}
+
+.txt-sm2{
+    font-size: smaller;
+}
+
+.txt-sm, .txt-sm1{
+    font-size: small;
+}
+
+.txt-md{
+    font-size: medium;
+}
+
+.txt-lg, .txt-lg1{
+    font-size: large;
+}
+
+.txt-lg2{
+    font-size: larger;
+}
+
+.txt-lg3{
+  font-size: x-large;
+}
+
+.txt-lg4{
+  font-size: xx-large;
+}

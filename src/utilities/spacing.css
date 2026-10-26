@@ -1,3 +1,5 @@
+/* Margin */
+
 .m,
 .m-x,
 .m-l {
@@ -21,6 +23,8 @@
 .m-b {
   margin-bottom: var(--m-bottom);
 }
+
+/* Padding */
 
 .p,
 .p-x,

@@ -1,0 +1,12 @@
+/* Border */
+.bd-none{
+  border: none;
+}
+/* Border Radius */
+.rad-sm{
+    border-radius: 0.5rem;
+}
+
+.rad-md{
+    border-radius: 1.25rem;
+}

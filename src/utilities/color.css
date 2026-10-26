@@ -1,0 +1,27 @@
+/* Text */
+
+.txt-cw, .txt-cw10{
+    color: white;
+}
+
+.txt-cb, .txt-cb10{
+    color: black;
+}
+
+.txt-cg5 {
+  color: green;
+}
+
+.txt-cr5 {
+  color: red;
+}
+
+/* Background */
+
+.bg-cw5 {
+  background-color: rgb(250, 249, 246);
+}
+
+.bg-none{
+  background-color: transparent;
+}
