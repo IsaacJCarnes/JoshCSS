@@ -1,0 +1,241 @@
+* {
+  /*Margin*/
+  --m: initial;
+  --m-x: initial;
+  --m-y: initial;
+  --m-l: initial;
+  --m-r: initial;
+  --m-t: initial;
+  --m-b: initial;
+  --m-left: var(--m-l, var(--m-x, var(--m, 0px)));
+  --m-right: var(--m-r, var(--m-x, var(--m, 0px)));
+  --m-top: var(--m-t, var(--m-y, var(--m, 0px)));
+  --m-bottom: var(--m-b, var(--m-y, var(--m, 0px)));
+
+  /*Padding*/
+  --p: initial;
+  --p-x: initial;
+  --p-y: initial;
+  --p-l: initial;
+  --p-r: initial;
+  --p-t: initial;
+  --p-b: initial;
+  --p-left: var(--p-l, var(--p-x, var(--p, 0px)));
+  --p-right: var(--p-r, var(--p-x, var(--p, 0px)));
+  --p-top: var(--p-t, var(--p-y, var(--p, 0px)));
+  --p-bottom: var(--p-b, var(--p-y, var(--p, 0px)));
+}
+/* Border */
+.bd-none{
+  border: none;
+}
+/* Border Radius */
+.rad-sm{
+    border-radius: 0.5rem;
+}
+
+.rad-md{
+    border-radius: 1.25rem;
+}
+
+/* Text */
+
+.txt-cw, .txt-cw10{
+    color: white;
+}
+
+.txt-cb, .txt-cb10{
+    color: black;
+}
+
+.txt-cg5 {
+  color: green;
+}
+
+.txt-cr5 {
+  color: red;
+}
+
+/* Background */
+
+.bg-cw5 {
+  background-color: rgb(250, 249, 246);
+}
+
+.bg-none{
+  background-color: transparent;
+}
+
+/* Flex */
+
+.flx {
+  display: flex;
+}
+
+.flx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flx-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flx-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flx-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flx-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+}
+
+/* Width/Height */
+
+.fill,
+.fill-x {
+  width: calc(
+    100% - (var(--m-left) + var(--m-right) + var(--p-left) + var(--p-right))
+  );
+}
+
+.fill,
+.fill-y {
+  height: calc(
+    100% - (var(--m-top) + var(--m-bottom) + var(--p-top) + var(--p-bottom))
+  );
+}
+
+/* Margin */
+
+.m,
+.m-x,
+.m-l {
+  margin-left: var(--m-left);
+}
+
+.m,
+.m-x,
+.m-r {
+  margin-right: var(--m-right);
+}
+
+.m,
+.m-y,
+.m-t {
+  margin-top: var(--m-top);
+}
+
+.m,
+.m-y,
+.m-b {
+  margin-bottom: var(--m-bottom);
+}
+
+/* Padding */
+
+.p,
+.p-x,
+.p-l {
+  padding-left: var(--p-left);
+}
+
+.p,
+.p-x,
+.p-r {
+  padding-right: var(--p-right);
+}
+
+.p,
+.p-y,
+.p-t {
+  padding-top: var(--p-top);
+}
+
+.p,
+.p-y,
+.p-b {
+  padding-bottom: var(--p-bottom);
+}
+
+/* Text/Fomt Specific CSS */
+/* Font Weight */
+.txt-w1 {
+  font-weight: 100;
+}
+.txt-w2 {
+  font-weight: 200;
+}
+.txt-w3 {
+  font-weight: 300;
+}
+.txt-w4 {
+  font-weight: 400;
+}
+.txt-w5 {
+  font-weight: 500;
+}
+.txt-w6 {
+  font-weight: 600;
+}
+.txt-w7 {
+  font-weight: 700;
+}
+.txt-w8 {
+  font-weight: 800;
+}
+.txt-w9 {
+  font-weight: 900;
+}
+.txt-w10 {
+  font-weight: 1000;
+}
+
+/* Font Size */
+.txt-sm4{
+  font-size: xx-small;
+}
+
+.txt-sm3{
+  font-size: x-small;
+}
+
+.txt-sm2{
+    font-size: smaller;
+}
+
+.txt-sm, .txt-sm1{
+    font-size: small;
+}
+
+.txt-md{
+    font-size: medium;
+}
+
+.txt-lg, .txt-lg1{
+    font-size: large;
+}
+
+.txt-lg2{
+    font-size: larger;
+}
+
+.txt-lg3{
+  font-size: x-large;
+}
+
+.txt-lg4{
+  font-size: xx-large;
+}
