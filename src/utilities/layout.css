@@ -33,3 +33,28 @@
     display: flex;
     align-items: center;
 }
+
+/* Self Variables */
+.align-start {
+  align-self: flex-start;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.align-end {
+  align-self: flex-end;
+}
+
+.justify-start {
+  justify-self: start;
+}
+
+.justify-center {
+  justify-self: center;
+}
+
+.justify-end {
+  justify-self: end;
+}
