@@ -35,26 +35,26 @@
 }
 
 /* Self Variables */
-.align-start {
+.self-as {
   align-self: flex-start;
 }
 
-.align-center {
+.self-ac {
   align-self: center;
 }
 
-.align-end {
+.self-ae {
   align-self: flex-end;
 }
 
-.justify-start {
+.self-js {
   justify-self: start;
 }
 
-.justify-center {
+.self-jc {
   justify-self: center;
 }
 
-.justify-end {
+.self-je {
   justify-self: end;
 }
